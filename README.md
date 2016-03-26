@@ -1,6 +1,6 @@
 # Keep It Simple Stupid (KISS) Grid
 
-A functional grid system in only 7 lines of CSS. Works on IE 7+!
+A functional grid system in only 8 lines of CSS. Works on IE 7+!
 
     .grid {
       display: table;
