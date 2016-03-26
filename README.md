@@ -1,6 +1,6 @@
 # KISS Grid (Keep It Simple Stupid Grid)
 
-A functional grid system in 7 lines of code.
+A functional grid system in only 7 lines of CSS.
 
     .grid {
       display: table;
@@ -20,7 +20,7 @@ To use this, here's an example of HTML markup:
       <div>Hello!</div>
     </div>
 
-The .grid element will act as a row, and its children divs are 4 flexible, class-agnostic, equal-width columns.
+The `.grid` element will act as a row, and its children divs are 4 flexible, class-agnostic, equal-width columns.
 
 The columns also will allow vertical alignment! To do so, add this line of CSS to your children elements:
     
