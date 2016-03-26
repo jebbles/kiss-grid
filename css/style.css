@@ -5,7 +5,7 @@ body {
   color: #333;
 }
 .container {
-  max-width: 800px;
+  max-width: 600px;
   margin: 50px auto;
 }
 pre {
@@ -14,7 +14,7 @@ pre {
   border: 1px solid #ddd;
   color: #666;
 }
-.example-grid-wrapper {
+.example-grid .grid > div {
   padding: 16px;
   border: 1px solid #ddd;
   background: rgba(0,0,0,0.05);
