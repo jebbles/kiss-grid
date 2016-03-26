@@ -1,4 +1,4 @@
-# KISS Grid (Keep It Simple Stupid Grid)
+# Keep It Simple Stupid (KISS) Grid
 
 A functional grid system in only 7 lines of CSS.
 
