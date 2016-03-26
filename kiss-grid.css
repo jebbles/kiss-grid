@@ -1,0 +1,10 @@
+// Base class to create a single row of elements
+.grid {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+// Children divs are turned into equal width columns automatically
+.grid > div {
+  display: table-cell;
+}
