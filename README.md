@@ -24,8 +24,16 @@ The `.grid` element will act as a row, and its children divs are 4 flexible, cla
 
 The columns also will allow vertical alignment! To do so, add this line of CSS to your children elements:
     
-    .child-div {
+    .grid > div {
       vertical-align: top|middle|bottom|;
     }
+    
+To create a responsive breakpoint to stack the columns vertically, simply add a max-width media query with the following:
 
-Modifier classes for alignment/gutters could be added, but for the sake of simplicity I'll leave them out for now. You can figure it out! :)
+    @media (max-width: 1024px;) {
+      .grid > div {
+        display: block;
+      }
+    }
+
+Modifier classes for all this could be added, but for the sake of simplicity I'll leave them out for now. You can figure it out! :)
