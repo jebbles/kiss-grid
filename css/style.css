@@ -2,11 +2,17 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5em;
-  color: #777;
+  color: #333;
 }
 .container {
   max-width: 800px;
   margin: 50px auto;
+}
+pre {
+  padding: 0 16px;
+  background: #f0f0f0;
+  border: 1px solid #ddd;
+  color: #666;
 }
 .example-grid-wrapper {
   padding: 16px;
