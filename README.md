@@ -20,7 +20,7 @@ To use this, here's an example of HTML markup:
       <div>Hello!</div>
     </div>
 
-The `.grid` element will act as a row, and its children divs are 4 flexible, class-agnostic, equal-width columns.
+The `.grid` element will act as a full-width row, and its 4 children `div`s become flexible, class-agnostic, equal-width columns.
 
 The columns also will allow vertical alignment! To do so, add this line of CSS to your children elements:
     
