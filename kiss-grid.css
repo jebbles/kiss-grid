@@ -7,4 +7,5 @@
 /* Children divs are turned into equal width columns automatically */
 .grid > div {
   display: table-cell;
+  vertical-align: top;
 }
