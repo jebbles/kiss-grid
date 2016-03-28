@@ -15,8 +15,7 @@ pre {
   padding: 0 16px;
 }
 .description {
-  display: inline-block;
-  width: 360px;
+  width: 60%;
 }
 a {
   color: #d04242;

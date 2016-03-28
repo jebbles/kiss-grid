@@ -11,59 +11,63 @@
   <body>
 
     <div class="container">
-      <div class="example breakdown">
-        <h1>Keep it Simple Stupid (KISS) Grid</h1>
-        <p class="description">A functional grid system in only 8 lines of CSS. Compatible with IE 7 and above!</p>
-        <a href="css/kiss-grid.css" class="button" download>Download</a>
-        <a href="http://github.com/jebbles/kiss-grid" class="button">Github</a>
-
-        <hr>
-
-        <h2>How to use it</h2>
-        <p>Either <a href="css/kiss-grid.css" download>download the CSS file</a> or copy the CSS code below to create the foundation of the grid:</p>
-
-        <pre><code>
-.grid {
-  display: table;
-  table-layout: fixed;
-  width: 100%;
-}
-.grid > div {
-  display: table-cell;
-}
-        </pre></code>
-
-        <p>Now to create the grid, try the following HTML markup:</p>
-
-        <pre><code>
-&lt;div class=&quot;grid&quot;&gt;
-  &lt;div&gt;Col One&lt;/div&gt;
-  &lt;div&gt;Col Two&lt;/div&gt;
-  &lt;div&gt;Col Three&lt;/div&gt;
-  &lt;div&gt;Col Four&lt;/div&gt;
-&lt;/div&gt;
-        </pre></code>
-
-        <p>Which should result in this (styled for easy viewing):</p>
-
-        <div class="example-grid">
-          <div class="grid">
-            <div>Col One</div>
-            <div>Col Two</div>
-            <div>Col Three</div>
-            <div>Col Four</div>
-          </div>
+      <h1>Keep it Simple Stupid (KISS) Grid</h1>
+      <div class="grid">
+        <div class="description">
+          <p>A functional grid system in only 8 lines of CSS. Compatible with IE 7 and above!</p>
+        </div>
+        <div class="buttons">
+          <a href="css/kiss-grid.css" class="button" download>Download</a>
+          <a href="http://github.com/jebbles/kiss-grid" class="button">Github</a>
         </div>
       </div>
-
-      <p>And that's it! The .grid element will act as a full-width row, and its 4 children divs become flexible, class-agnostic, equal-width columns.</p>
-
       <hr>
 
-      <div class="footer">
-       <p>Created by <a href="http://github.com/jebbles">@jebbles</a> + <a href="http://www.controlflowcollective.com">Control Flow Collective</a>.</p>
+      <h2>How to use it</h2>
+      <p>Either <a href="css/kiss-grid.css" download>download the CSS file</a> or copy the CSS code below to create the foundation of the grid:</p>
+
+      <pre><code>
+.grid {
+display: table;
+table-layout: fixed;
+width: 100%;
+}
+.grid > div {
+display: table-cell;
+}
+      </pre></code>
+
+      <p>Now to create the grid, try the following HTML markup:</p>
+
+      <pre><code>
+&lt;div class=&quot;grid&quot;&gt;
+&lt;div&gt;Col One&lt;/div&gt;
+&lt;div&gt;Col Two&lt;/div&gt;
+&lt;div&gt;Col Three&lt;/div&gt;
+&lt;div&gt;Col Four&lt;/div&gt;
+&lt;/div&gt;
+      </pre></code>
+
+      <p>Which should result in this (styled for easy viewing):</p>
+
+      <div class="example-grid">
+        <div class="grid">
+          <div>Col One</div>
+          <div>Col Two</div>
+          <div>Col Three</div>
+          <div>Col Four</div>
+        </div>
       </div>
-<!--       <div class="grid visualized">
+    </div>
+
+    <p>And that's it! The .grid element will act as a full-width row, and its 4 children divs become flexible, class-agnostic, equal-width columns.</p>
+
+    <hr>
+
+    <div class="footer">
+     <p>Created by <a href="http://github.com/jebbles">@jebbles</a> + <a href="http://www.controlflowcollective.com">Control Flow Collective</a>.</p>
+    </div>
+  <!--       <div class="grid visualized">
         <div>12</div>
         <div>12</div>
         <div>12</div>
