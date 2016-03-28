@@ -39,13 +39,18 @@ pre {
 }
 .example-grid .grid {
   border-collapse: collapse;
+  font-size: 13px;
   margin: 20px 0;
 }
 .example-grid .grid > div {
   background: #f0f0f0;
   border: 1px solid #ddd;
+  color: #999;
   padding: 16px;
 }
-.example-grid .grid.center {
+.example-grid .grid.visualized {
   text-align: center;
+}
+.example-grid .grid.visualized > div {
+  padding: 16px 0;
 }
