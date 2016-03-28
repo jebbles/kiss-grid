@@ -31,6 +31,9 @@ a {
 hr {
   clear: both;
 }
+h3 {
+  margin: 0;
+}
 pre {
   color: #666;
   padding: 0;
