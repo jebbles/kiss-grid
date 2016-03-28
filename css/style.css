@@ -8,6 +8,9 @@ body {
   margin: 50px auto;
   max-width: 600px;
 }
+h1 {
+  line-height: 1.5em;
+}
 .description {
   width: 60%;
 }
