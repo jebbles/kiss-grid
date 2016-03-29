@@ -12,6 +12,7 @@ h1 {
   line-height: 1.5em;
 }
 #tester .grid > div {
+  overflow: hidden;
   padding: 16px 0;
   text-align: center;
   text-overflow: ellipsis;
