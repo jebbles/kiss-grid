@@ -17,6 +17,7 @@ h1 {
 }
 #add-column-btn {
   float: none;
+  margin-left: 0;
 }
 .description {
   width: 60%;
