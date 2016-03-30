@@ -25,6 +25,7 @@
       </div>
       <hr>
       <h2>Try it out</h2>
+      <p>Add any number of child divs to a .grid and they will automatically form equal sized columns:</p>
       <div id="tester" class="example-grid">
         <div class="grid">
           <div>Column</div>
@@ -39,7 +40,7 @@
         <div class="grid">
 
           <div>
-            <h3>CSS</h3>
+            <h3>KISS Grid CSS</h3>
             <pre><code>
   .grid {
     display: table;
@@ -85,125 +86,33 @@
 
       <p>And that's it! The .grid element will act as a full-width row, and its children divs become flexible, class-agnostic, equal-width columns.</p>
 
-      <p>Add any number of child divs to a .grid and they will automatically form equal sized columns:</p>
-
+      <h2>Vertical Alignment</h2>
+      <p>Create your own class for the column divs with the attribute <code>vertical-align: top|middle|bottom;</code> to align your content. By default the columns are aligned to the top.</p>
       <div class="example-grid">
+        <div class="grid">
 
-        <div class="grid visualized">
-          <div>12</div>
-          <div>12</div>
-          <div>12</div>
-          <div>12</div>
-          <div>12</div>
-          <div>12</div>
-          <div>12</div>
-          <div>12</div>
-          <div>12</div>
-          <div>12</div>
-          <div>12</div>
-          <div>12</div>
-        </div>
+          <div>
+            <h3>Example CSS</h3>
+            <pre><code>
+  .custom-class {
+    vertical-align: middle;
+  }
+            </pre></code>
+          </div>
 
-        <div class="grid visualized">
-          <div>11</div>
-          <div>11</div>
-          <div>11</div>
-          <div>11</div>
-          <div>11</div>
-          <div>11</div>
-          <div>11</div>
-          <div>11</div>
-          <div>11</div>
-          <div>11</div>
-          <div>11</div>
-        </div>
+          <div>
+            <h3>Example HTML</h3>
+            <pre><code>
+  &lt;div class=&quot;grid&quot;&gt;
+    &lt;div class=&quot;custom-class&quot;&gt;I'm content that is vertically aligned!&lt;/div&gt;
+    &lt;div class=&quot;custom-class&quot;&gt;Even when there is more content in a column it's still aligned!&lt;/p&gt;&lt;/div&gt;
+    &lt;div class=&quot;custom-class&quot;&gt;Also when there is less!&lt;/p&gt;&lt;/div&gt;
+  &lt;/div&gt;
+            </pre></code>
+          </div>
 
-        <div class="grid visualized">
-          <div>10</div>
-          <div>10</div>
-          <div>10</div>
-          <div>10</div>
-          <div>10</div>
-          <div>10</div>
-          <div>10</div>
-          <div>10</div>
-          <div>10</div>
-          <div>10</div>
-        </div>
-
-        <div class="grid visualized">
-          <div>9</div>
-          <div>9</div>
-          <div>9</div>
-          <div>9</div>
-          <div>9</div>
-          <div>9</div>
-          <div>9</div>
-          <div>9</div>
-          <div>9</div>
-        </div>
-
-        <div class="grid visualized">
-          <div>8</div>
-          <div>8</div>
-          <div>8</div>
-          <div>8</div>
-          <div>8</div>
-          <div>8</div>
-          <div>8</div>
-          <div>8</div>
-        </div>
-
-        <div class="grid visualized">
-          <div>7</div>
-          <div>7</div>
-          <div>7</div>
-          <div>7</div>
-          <div>7</div>
-          <div>7</div>
-          <div>7</div>
-        </div>
-
-        <div class="grid visualized">
-          <div>6</div>
-          <div>6</div>
-          <div>6</div>
-          <div>6</div>
-          <div>6</div>
-          <div>6</div>
-        </div>
-
-        <div class="grid visualized">
-          <div>5</div>
-          <div>5</div>
-          <div>5</div>
-          <div>5</div>
-          <div>5</div>
-        </div>
-
-        <div class="grid visualized">
-          <div>4</div>
-          <div>4</div>
-          <div>4</div>
-          <div>4</div>
-        </div>
-
-        <div class="grid visualized">
-          <div>3</div>
-          <div>3</div>
-          <div>3</div>
-        </div>
-
-        <div class="grid visualized">
-          <div>2</div>
-          <div>2</div>
-        </div>
-
-        <div class="grid visualized">
-          <div>1</div>
         </div>
       </div>
-
       <p>Vertical content alignment, gutters, and responsive breakpoint how-tos coming soon!</p>
 
       <hr>
