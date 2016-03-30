@@ -46,8 +46,11 @@ pre {
   margin: 0;
 }
 .example-grid .grid {
+  border: 1px solid transparent;
   border-collapse: collapse;
+  border: 1px solid transparent;
   font-size: 13px;
+  height: 58px;
   margin: 20px 0;
 }
 .example-grid .grid > div {
@@ -61,6 +64,20 @@ pre {
 }
 .example-grid .grid.visualized > div {
   padding: 16px 0;
+}
+#tester:before {
+  border: 1px dashed #ddd;
+  box-sizing: border-box;
+  color: #ddd;
+  content: "Empty";
+  display: block;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 57px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: -1;
 }
 #tester .grid > div {
   overflow: hidden;
