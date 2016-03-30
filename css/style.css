@@ -62,7 +62,7 @@ pre {
   text-align: center;
 }
 .example-grid .grid.visualized > div {
-  padding: 16px 8;
+  padding: 16px;
 }
 #tester {
   position: relative;
