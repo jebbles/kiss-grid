@@ -94,6 +94,6 @@ pre {
 }
 #tester .button {
   float: none;
-  margin-left: 0;
+  margin: 0;
   margin-right: 10px;
 }
