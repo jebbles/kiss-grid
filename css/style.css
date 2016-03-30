@@ -53,7 +53,7 @@ pre {
   border: 1px solid transparent;
   border-collapse: collapse;
   font-size: 14px;
-  height: 58px;
+  min-height: 58px;
   margin: 20px 0;
 }
 .example-grid .grid > div {
@@ -62,13 +62,19 @@ pre {
   color: #999;
   padding: 16px;
 }
-.example-grid .grid.visualized {
+.example-grid .grid {
   text-align: center;
 }
-.example-grid .grid.visualized > div {
-  padding: 16px;
+.example-grid.alignment .grid {
+  min-height: 100px;
 }
-.grid .custom-class {
+.grid > .top {
+  vertical-align: middle;
+}
+.grid > .middle {
+  vertical-align: middle;
+}
+.grid > .bottom {
   vertical-align: middle;
 }
 #tester {
