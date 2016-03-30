@@ -11,17 +11,6 @@ body {
 h1 {
   line-height: 1.5em;
 }
-#tester .grid > div {
-  overflow: hidden;
-  padding: 16px 0;
-  text-align: center;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-#add-column-btn {
-  float: none;
-  margin-left: 0;
-}
 .description {
   width: 60%;
 }
@@ -31,13 +20,13 @@ h1 {
 .button {
   background: #d04242;
   border-radius: 4px;
+  border: 0;
   color: white;
   display: inline-block;
   float: right;
   margin: 5px 0 20px 10px;
   padding: 8px 16px;
   text-decoration: none;
-  border: 0;
 }
 a {
   color: #d04242;
@@ -45,6 +34,8 @@ a {
 }
 hr {
   clear: both;
+  border-top: 0;
+  border-bottom: 1px solid #ddd;
 }
 h3 {
   margin: 0;
@@ -70,4 +61,16 @@ pre {
 }
 .example-grid .grid.visualized > div {
   padding: 16px 0;
+}
+#tester .grid > div {
+  overflow: hidden;
+  padding: 16px 0;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#tester .button {
+  float: none;
+  margin-left: 0;
+  margin-right: 10px;
 }

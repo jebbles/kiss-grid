@@ -1,5 +1,8 @@
 $(document).ready(function(){
-  $('#add-column-btn').click(function(){
-    $('#tester').find('.grid').append("<div>Column</div>");
+  $('#add-btn').click(function(){
+    $('#tester .grid').append("<div>Column</div>");
+  });
+  $('#remove-btn').click(function(){
+    $('#tester .grid').remove('.div:last');
   });
 });
