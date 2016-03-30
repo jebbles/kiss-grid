@@ -3,6 +3,6 @@ $(document).ready(function(){
     $('#tester .grid').append("<div>Column</div>");
   });
   $('#remove-btn').click(function(){
-    $('#tester .grid').remove('.div:last');
+    $('#tester .grid').remove('div:last');
   });
 });
