@@ -6,7 +6,7 @@ body {
 }
 .container {
   margin: 50px auto;
-  max-width: 600px;
+  max-width: 640px;
 }
 h1 {
   line-height: 1.5em;
@@ -65,7 +65,7 @@ pre {
 .example-grid .grid.visualized > div {
   padding: 16px;
 }
-.custom-class {
+.grid .custom-class {
   vertical-align: middle;
 }
 #tester {
