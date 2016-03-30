@@ -66,7 +66,7 @@ pre {
   text-align: center;
 }
 .example-grid.alignment .grid {
-  min-height: 100px;
+  min-height: 150px;
 }
 .grid > .top {
   vertical-align: middle;
