@@ -52,7 +52,6 @@ pre {
   font-size: 13px;
   height: 58px;
   margin: 20px 0;
-  position: relative;
 }
 .example-grid .grid > div {
   background: #f0f0f0;
@@ -65,6 +64,9 @@ pre {
 }
 .example-grid .grid.visualized > div {
   padding: 16px 0;
+}
+#tester {
+  position: relative;
 }
 #tester:before {
   border: 1px dashed #ddd;
