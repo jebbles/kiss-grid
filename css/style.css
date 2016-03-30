@@ -49,6 +49,11 @@ pre {
   margin: 0;
   white-space: pre-wrap;
 }
+p code {
+  background: #f0f0f0;
+  color: #666;
+  padding: 4px;
+}
 /* Used to denote user-made classes for demonstration purposes */
 .highlight {
   color: #d04242;
