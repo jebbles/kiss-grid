@@ -46,6 +46,7 @@ pre {
   margin: 0;
   white-space: pre-wrap;
 }
+/* Used to denote user-made classes for demonstration purposes */
 .highlight {
   color: #d04242;
 }
@@ -62,20 +63,13 @@ pre {
   color: #999;
   padding: 16px;
 }
-.example-grid .grid {
+/* Used to center text for demonstration purposes */
+.example-grid.center .grid {
   text-align: center;
 }
-.example-grid.alignment .grid {
-  min-height: 150px;
-}
-.grid > .top {
-  vertical-align: top;
-}
-.grid > .middle {
-  vertical-align: middle;
-}
-.grid > .bottom {
-  vertical-align: bottom;
+/* Added height to show alignment more clearly for demonstration purposes */
+#alignment .grid {
+  min-height: 100px;
 }
 #tester {
   position: relative;
