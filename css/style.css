@@ -65,7 +65,7 @@ pre {
 .example-grid .grid.visualized > div {
   padding: 16px;
 }
-.example-grid .grid .custom-class {
+.custom-class {
   vertical-align: middle;
 }
 #tester {
