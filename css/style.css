@@ -48,7 +48,7 @@ pre {
 .example-grid .grid {
   border: 1px solid transparent;
   border-collapse: collapse;
-  font-size: 13px;
+  font-size: 14px;
   height: 58px;
   margin: 20px 0;
 }
@@ -73,7 +73,7 @@ pre {
   color: #ddd;
   content: "Empty";
   display: block;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: normal;
   line-height: 57px;
   position: absolute;
