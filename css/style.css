@@ -69,7 +69,16 @@ pre {
 }
 /* Added height to show alignment more clearly for demonstration purposes */
 #alignment .grid {
-  min-height: 100px;
+  min-height: 150px;
+}
+.grid > .top {
+  vertical-align: top;
+}
+.grid > .middle {
+  vertical-align: middle;
+}
+.grid > .bottom {
+  vertical-align: bottom;
 }
 #tester {
   position: relative;
