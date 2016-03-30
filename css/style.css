@@ -46,6 +46,9 @@ pre {
   margin: 0;
   white-space: pre-wrap;
 }
+.highlight {
+  color: #d04242;
+}
 .example-grid .grid {
   border: 1px solid transparent;
   border-collapse: collapse;
