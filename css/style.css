@@ -52,7 +52,10 @@ pre {
 p code {
   background: #f0f0f0;
   color: #666;
+  font-size: 14px;
   padding: 4px;
+  position: relative;
+  top: -1px;
 }
 /* Used to denote user-made classes for demonstration purposes */
 .highlight {
