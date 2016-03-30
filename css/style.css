@@ -44,6 +44,7 @@ pre {
   color: #666;
   padding: 0;
   margin: 0;
+  word-wrap: pre-wrap;
 }
 .example-grid .grid {
   border: 1px solid transparent;
