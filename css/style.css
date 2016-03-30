@@ -62,7 +62,10 @@ pre {
   text-align: center;
 }
 .example-grid .grid.visualized > div {
-  padding: 16px 0;
+  overflow: hidden;
+  padding: 16px 8px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 #tester {
   position: relative;
@@ -82,11 +85,7 @@ pre {
   z-index: -1;
 }
 #tester .grid > div {
-  overflow: hidden;
-  padding: 16px 0;
   text-align: center;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 #tester .button {
   float: none;
