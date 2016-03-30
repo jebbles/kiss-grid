@@ -11,6 +11,9 @@ body {
 h1 {
   line-height: 1.5em;
 }
+h2 {
+  margin-top: 40px;
+}
 .description {
   width: 60%;
 }
