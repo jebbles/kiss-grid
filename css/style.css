@@ -69,13 +69,13 @@ pre {
   min-height: 150px;
 }
 .grid > .top {
-  vertical-align: middle;
+  vertical-align: top;
 }
 .grid > .middle {
   vertical-align: middle;
 }
 .grid > .bottom {
-  vertical-align: middle;
+  vertical-align: bottom;
 }
 #tester {
   position: relative;
