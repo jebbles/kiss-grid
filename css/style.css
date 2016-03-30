@@ -52,6 +52,7 @@ pre {
   font-size: 13px;
   height: 58px;
   margin: 20px 0;
+  position: relative;
 }
 .example-grid .grid > div {
   background: #f0f0f0;
